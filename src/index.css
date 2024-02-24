@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+#input{
+
+    height: 0px;
+}
+#input::-webkit-slider-thumb{
+    -webkit-appearance: none; /* Override default look */
+   appearance: none;
+   margin-top: -12px; /* Centers thumb on the track */
+   background-image: url('./thumb.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+   height: 30px;
+   width: 30px;  
+}
+#input::-webkit-slider-runnable-track{
+    height: 5px;
+  background: #0097E6;
+  border-radius: 16px;
+  position: relative;
+  bottom: 10px;
+}
+
+.option{
+    font-size: 30px;
+  }
+
